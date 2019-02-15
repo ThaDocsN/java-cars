@@ -12,8 +12,7 @@ import java.io.Serializable;
 @Entity
 public class Car implements Serializable {
 
-    private @Id
-    @GeneratedValue Long id;
+    private @Id @GeneratedValue Long id;
     private int year;
     private String brand;
     private String model;
